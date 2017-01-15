@@ -13,7 +13,7 @@ public class WelcomeController extends AbstractController {
 			HttpServletResponse res) throws Exception {
 		System.out.println("In the controller");
 		ModelAndView mav = new ModelAndView("Welcome");
-		mav.addObject("welcomeMessage", "Welcome to ManavRachana");
+		mav.addObject("welcomeMessage", "Welcome to Dhawan Family");
 		return mav;
 	}
 
